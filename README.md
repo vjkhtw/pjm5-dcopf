@@ -46,7 +46,7 @@ The theory behind the project (economic dispatch, DC power flow, congestion, dua
 ## How to run
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/vjkhtw/pjm5-dcopf.git
 cd pjm5-dcopf
 pip install -r requirements.txt
 jupyter notebook notebooks/01_dcopf_pyomo.ipynb
@@ -60,7 +60,7 @@ This is a lossless DC model for a single period with linear costs and base-case 
 
 ## Data
 
-IEEE PES Power Grid Library, `pglib_opf_case5_pjm` (v23.07), based on F. Li and R. Bo, "Small Test Systems for Power System Economic Studies," IEEE PES General Meeting, 2010. Licensed CC BY 4.0.
+[IEEE PES Power Grid Library](https://github.com/power-grid-lib/pglib-opf), `pglib_opf_case5_pjm` (v23.07), based on F. Li and R. Bo, "Small Test Systems for Power System Economic Studies," IEEE PES General Meeting, 2010. Licensed CC BY 4.0.
 
 ## Learning resources
 
